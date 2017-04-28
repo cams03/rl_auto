@@ -1,0 +1,12 @@
+.navbar {
+  min-height: 70px;
+}
+.nav_header {
+  height: 70px;
+}
+.navbar-nav li a {
+  line-height: 40px;
+}
+.navbar-inverse {
+  background-color: #4e4e4e;
+}
