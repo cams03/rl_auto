@@ -21,6 +21,9 @@
 .navbar-inverse .navbar-nav>.active>a {
   background-color: #f60000;
 }
+.navbar-inverse .navbar-nav li a:hover {
+  background-color: #080808;
+}
 #home {
   height: 800px;
   background-image: url("img/speed.jpg");
