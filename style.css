@@ -33,5 +33,6 @@
   background-image: url("img/bmw.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
 }
-#about .container {padding: 60px 0;}
+#about .container {padding: 60px 0;height: 600px;}
