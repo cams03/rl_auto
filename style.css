@@ -6,24 +6,13 @@
   font-family: "evogria";
   src: url("fonts/Evogria.otf");
 }
-.navbar {
-  min-height: 70px;
-}
-.nav_header {
-  height: 70px;
-}
-.navbar-nav li a {
-  line-height: 40px;
-}
-.navbar-inverse {
-  background-color: #4e4e4e;
-}
-.navbar-inverse .navbar-nav>.active>a {
-  background-color: #f60000;
-}
-.navbar-inverse .navbar-nav li a:hover {
-  background-color: #080808;
-}
+.navbar {min-height: 70px;}
+.nav_header {height: 70px;}
+.navbar-nav li a {line-height: 40px;}
+.navbar-inverse {background-color: #4e4e4e;}
+.navbar-inverse .navbar-nav>.active>a {background-color: #f60000;}
+.navbar-inverse .navbar-nav li a:hover {background-color: #080808;}
+
 #home {
   height: 800px;
   background-image: url("img/speed.jpg");
@@ -36,9 +25,13 @@
   color: white;
   font-family: "evogria";
 }
-.homeText h1 {
-  font-size: 100px;
+.homeText h1 {font-size: 100px;}
+.homeText h2 {font-size: 70px;}
+
+#about {
+  background-color: white;
+  background-image: url("img/bmw.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.homeText h2 {
-  font-size: 70px;
-}
+#about .container {padding: 60px 0;}
