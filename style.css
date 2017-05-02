@@ -6,6 +6,9 @@
   font-family: "evogria";
   src: url("fonts/Evogria.otf");
 }
+section {
+  height: 800px;
+}
 .navbar {min-height: 70px;}
 .nav_header {height: 70px;}
 .navbar-nav li a {line-height: 40px;}
@@ -35,4 +38,6 @@
   background-size: cover;
 
 }
-#about .container {padding: 60px 0;height: 600px;}
+#about .container {padding: 60px 0;}
+#achat {background-color: black; color: white;}
+#vente {background-color: #b40f02;background: url("img/bmw.jpg") left -80px no-repeat;}
