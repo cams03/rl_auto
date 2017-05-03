@@ -38,6 +38,6 @@ section {
   background-size: cover;
 
 }
-#about .container {padding: 60px 0;}
+#about .container, #achat .container, #vente .container, #contact .container {padding: 60px 0;}
 #achat {background-color: black; color: white;}
-#vente {background-color: #b40f02;background: url("img/bmw.jpg") left -80px no-repeat;}
+#vente {background-color: #b40f02; color: white;}
