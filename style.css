@@ -19,6 +19,8 @@ section {
 #home {
   height: 800px;
   background-image: url("img/speed.jpg");
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,12 +34,15 @@ section {
 .homeText h2 {font-size: 70px;}
 
 #about {
-  background-color: white;
-  background-image: url("img/bmw.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
+  background-color: black;
+  color: white;
 }
 #about .container, #achat .container, #vente .container, #contact .container {padding: 60px 0;}
-#achat {background-color: black; color: white;}
+#achat {
+   background-image: url("img/bmw.jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
 #vente {background-color: #b40f02; color: white;}
