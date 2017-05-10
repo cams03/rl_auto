@@ -42,21 +42,21 @@ section {
 }
 #about .container .row:nth-child(2) div {
   border: 2px solid white;
-  height: 200px;
-  padding-top: 7%;
+    font-size: 30px;
+    height: 200px;
+    padding-top: 6%;
 }
 #about .container .row:nth-child(2) div:hover {
+  transform: scale(1.2);
   cursor: pointer;
-  transform: scale(1.1);
 }
-#about .container .row:nth-child(3) {
-  padding-top: 2%;
+#about .container .row:nth-child(2) div a{
+  color: white;
 }
-#about .container .row:nth-child(3) div {
-  height: 100px;
-  background-color: white;
-  color:black;
+#about .container .row:nth-child(2) div a:hover {
+  text-decoration: none;
 }
+
 #about .container, #achat .container, #vente .container, #contact .container {padding: 60px 0;}
 #achat {
    background-image: url("img/bmw.jpg");
