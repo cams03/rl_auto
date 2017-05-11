@@ -93,26 +93,151 @@
                 <h2>Nous contacter</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id vehicula nulla. Fusce at lobortis elit. Integer lorem purus, fringilla.</p>
             </div>
-            <form class="col-lg-6 well">
-                <legend>Nous contacter par message</legend>
-                <div class="form-group">
-                  <label for="select">Spécifiez votre demande </label>
-                  <select class="form-control" required>
-                    <option>Devis pour rachat</option>
-                    <option>Message</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label for="objet">Objet</label>
-                  <input type="text" class="form-control" required>
-                </div>
-                <div class="form-group">
-                  <label for="textarea">Message :</label>
-                  <textarea id="textarea" class="form-control" required></textarea>
-                </div>
 
-                <button class="btn btn-primary" type="submit">Envoyer</button>
+            <form class="col-lg-6 well">
+                <fieldset>
+
+                    <!-- Form Name -->
+                    <legend>Nous contacter par message</legend>
+
+                    <div class="form-group">
+                        <label class="control-label" for="modele">E-mail :</label>
+                        <div>
+                            <input id="mail" name="mail" type="email" placeholder="Ex: mdurand@gmail.com" class="form-control input-md" required>
+                            <span class="help-block">Spécifiez un modèle</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group ">
+                        <label class="control-label" for="demande">Spécifiez votre demande :</label>
+                        <div>
+                            <select id="demande" name="demande" class="form-control">
+                              <option value="0"></option>
+                              <option value="1">Devis pour rachat</option>
+                              <option value="2">Message</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Select Multiple -->
+                    <div class="form-group rachat">
+                        <label class="control-label" for="selectmarque">Marque :</label>
+                        <div class="marque">
+                            <select id="selectmarque" name="selectmarque" class="form-control" multiple="multiple">
+                              <option value="1">Alpha Romeo</option>
+                              <option value="2">Audi</option>
+                              <option value="3">BMW</option>
+                              <option value="4">Chevrolet</option>
+                              <option value="5">Chrysler</option>
+                              <option value="6">Citroën</option>
+                              <option value="7">Dacia</option>
+                              <option value="8">Daewoo</option>
+                              <option value="9">Fiat</option>
+                              <option value="10">Ford</option>
+                              <option value="11">Honda</option>
+                              <option value="12">Hyundai</option>
+                              <option value="13">Jeep</option>
+                              <option value="14">Kia</option>
+                              <option value="15">Lancia</option>
+                              <option value="16">Land Rover</option>
+                              <option value="17">Mazda</option>
+                              <option value="18">Mercedes</option>
+                              <option value="19">Mini</option>
+                              <option value="20">Mitsubishi</option>
+                              <option value="21">Nissan</option>
+                              <option value="22">Opel</option>
+                              <option value="23">Peugeot</option>
+                              <option value="24">Renault</option>
+                              <option value="25">Rover</option>
+                              <option value="26">Seat</option>
+                              <option value="27">Skoda</option>
+                              <option value="28">Smart</option>
+                              <option value="29">Suzuki</option>
+                              <option value="30">Toyota</option>
+                              <option value="31">Volkswagen</option>
+                              <option value="32">Volvo</option>
+                          </select>
+                          <span class="help-block">Spécifiez une marque</span>
+                        </div>
+                    </div>
+                    <div class="form-group rachat">
+                        <label class="control-label" for="modele">Modèle :</label>
+                        <div>
+                            <input id="modele" name="modele" type="text" placeholder="" class="form-control input-md" required="">
+                            <span class="help-block">Spécifiez un modèle</span>
+                        </div>
+                    </div>
+                    <div class="form-group rachat">
+                        <label class="control-label" for="annee">Année de mise en circulation :</label>
+                        <div>
+                            <input id="annee" name="annee" type="text" placeholder="ex: 1990..." class="form-control input-md" required="">
+                            <span class="help-block">Spécifiez une année</span>
+                        </div>
+                    </div>
+                    <div class="form-group rachat">
+                        <label class="control-label" for="km">Kilométrage :</label>
+                        <div>
+                            <input id="km" name="km" type="text" placeholder="km" class="form-control input-md" required="">
+                            <span class="help-block">Spécifiez un nombre de kilomètres</span>
+                        </div>
+                    </div>
+                    <div class="form-group rachat">
+                        <label class="control-label" for="etat">Etat :</label>
+                        <div>
+                            <div class="radio">
+                                <label for="etat-0">
+                                  <input type="radio" name="etat" id="etat-0" value="" checked="checked">
+                                  Quasi neuf
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="etat-1">
+                                  <input type="radio" name="etat" id="etat-1" value="">
+                                  Bon
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="etat-2">
+                                  <input type="radio" name="etat" id="etat-2" value="">
+                                    Moyen
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label for="etat-3">
+                                  <input type="radio" name="etat" id="etat-3" value="">
+                                  Mauvais
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Text input-->
+                    <div class="form-group">
+                        <label class="control-label" for="objet">Objet :</label>
+                        <div>
+                            <input id="objet" name="objet" type="text" placeholder="" class="form-control input-md" required="">
+                            <span class="help-block">Spécifiez un objet</span>
+                        </div>
+                    </div>
+                    <!-- Textarea -->
+                    <div class="form-group">
+                        <label class="control-label" for="textarea">Message :</label>
+                        <div>
+                            <textarea class="form-control" id="textarea" name="textarea"></textarea>
+                        </div>
+                    </div>
+                    <!-- Button -->
+                    <div class="form-group">
+                        <label class="control-label" for="singlebutton"></label>
+                        <div>
+                            <button id="envoyer" name="envoyer" class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-ok-sign"></span>Envoyer</button>
+                        </div>
+                    </div>
+                </fieldset>
             </form>
+            <div class="col-lg-6">
+              Nous contacter par téléphone
+
+            </div>
         </div>
     </section>
 

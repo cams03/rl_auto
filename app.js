@@ -24,5 +24,13 @@ $(function () {
   	$('#item1').hide();
   	$('#item2').hide();
   })
-});
+  $("select#demande").on("click", function(){
+    if($("#demande").val() === "1") {
+      $(".rachat").css("display","block");
+    } else {
+      $(".rachat").css("display","none");
+    }
+  })
 
+
+});

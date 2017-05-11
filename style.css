@@ -11,6 +11,7 @@ section {
 }
 form {
   padding: 3%;
+  margin-top: 2%;
 }
 .navbar {min-height: 70px;}
 .nav_header {height: 70px;}
@@ -77,3 +78,6 @@ form {
    background-size: cover;
 }
 #vente {background-color: #b40f02; color: white;}
+.rachat {display: none;}
+#envoyer span {margin-right: 7%;}
+.help-block {display: none;}
