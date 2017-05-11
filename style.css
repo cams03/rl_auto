@@ -9,6 +9,9 @@
 section {
   height: 800px;
 }
+form {
+  padding: 3%;
+}
 .navbar {min-height: 70px;}
 .nav_header {height: 70px;}
 .navbar-nav li a {line-height: 40px;}
@@ -34,14 +37,15 @@ section {
 #home h2 {font-size: 70px;}
 
 #about {
-  background-color: black;
+  background-color: #141414;
   color: white;
+  height: 550px;
 }
 #about .container .row:nth-child(2){
- padding-top: 10%;
+ padding-top: 5%;
 }
 #about .container .row:last-child {
-  padding-top: 4%;
+  padding-top: 2%;
 }
 #about .container .row:nth-child(2) div {
   border: 2px solid white;
@@ -59,8 +63,7 @@ section {
 }
 #about .container .row:nth-child(3) div {
   display: none;
-  background-color: white;
-  color: black;
+  color: white;
   padding: 1%;
   height: 100px;
 }
