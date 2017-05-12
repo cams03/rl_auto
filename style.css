@@ -134,7 +134,7 @@ p {
     font-size: 25px;
   }
   #achat .container{
-    background-size: auto;
+    background-size: contain;
     background-attachment: scroll;
   }
   #about .container .row:nth-child(2) div {
