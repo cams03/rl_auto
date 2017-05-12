@@ -132,6 +132,9 @@ p {
     margin-top: 4%;
     font-size: 25px;
   }
+  #achat .container{
+    background-size: auto;
+  }
   #about .container .row:nth-child(2) div {
     height: 50px;
     padding: 1%;
