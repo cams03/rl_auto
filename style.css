@@ -127,6 +127,7 @@ p {
 @media screen and (max-width:500px) {
   #home h1 {font-size: 90px;}
   #home h2 {font-size: 50px;}
+  #home .row {margin-top: 30%;}
   #about .container .row:nth-child(2) div {
     height: 99px;
     margin-top: 4%;
