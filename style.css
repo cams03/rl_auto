@@ -134,6 +134,7 @@ p {
   }
   #achat .container{
     background-size: auto;
+    background-attachment: scroll;
   }
   #about .container .row:nth-child(2) div {
     height: 50px;
