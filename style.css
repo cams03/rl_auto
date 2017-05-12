@@ -115,3 +115,22 @@ p {
 .rachat {display: none;}
 #envoyer span {margin-right: 7%;}
 .help-block {display: none;}
+
+
+@media screen and (max-width:700px) {
+  #vente .slideshow {height: 400px;}
+}
+@media screen and (max-width:500px) {
+  #home h1 {font-size: 90px;}
+  #home h2 {font-size: 50px;}
+  #about .container .row:nth-child(2) div {
+    height: 99px;
+    margin-top: 4%;
+    font-size: 25px;
+  }
+  #about p, #achat p, #vente p, #contact p {font-size: 15px;}
+  #vente .slideshow {height: 300px;}
+}
+@media screen and (max-width:380px) {
+  #vente .slideshow {height: 200px;}
+}
