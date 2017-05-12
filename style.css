@@ -118,6 +118,11 @@ p {
 
 @media screen and (max-width:700px) {
   #vente .slideshow {height: 400px;}
+  #about .container .row:nth-child(2) div {
+    height: 50px;
+    padding: 1%;
+    border-radius: 5%;
+  }
 }
 @media screen and (max-width:500px) {
   #home h1 {font-size: 90px;}
@@ -137,4 +142,6 @@ p {
 }
 @media screen and (max-width:380px) {
   #vente .slideshow {height: 200px;}
+  #home h1 {font-size: 70px;}
+  #home h2 {font-size: 40px;}
 }
