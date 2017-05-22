@@ -30,15 +30,6 @@ form {
 p {
   font-size: 20px;
 }
-.navbar {
-  min-height: 70px;
-  font-size: 15px;
-}
-.nav_header {height: 70px;}
-.navbar-nav li a {line-height: 40px;}
-.navbar-inverse {background-color: #4e4e4e;}
-.navbar-inverse .navbar-nav>.active>a {background-color: #f60000;}
-.navbar-inverse .navbar-nav li a:hover {background-color: #080808;}
 
 #home {
   height: 800px;
@@ -99,11 +90,31 @@ p {
    background-repeat: no-repeat;
    background-size: cover;
 }
+#achat .container .row {margin-top: 10%;}
+#achat .container .row div {
+  background: rgba(78,78,78,0.8);
+}
+#achat .container .row div h3 {color: white;}
+#achat .container .row div p {
+  font-size: 15px;
+  color: white;
+  padding: 5%;
+}
 #vente {background-color: #b40f02; color: white;}
 #vente .slideshow {
   height: 500px;
   margin-top: 2%;
 }
+.navbar {
+  min-height: 70px;
+  font-size: 15px;
+}
+.nav_header {height: 70px;}
+.navbar-nav li a {line-height: 40px;}
+.navbar-inverse {background-color: #4e4e4e;}
+.navbar-inverse .navbar-nav>.active>a {background-color: #f60000;}
+.navbar-inverse .navbar-nav li a:hover {background-color: #080808;}
+
 .carousel-control {
   width: 5%;
 }
@@ -115,7 +126,20 @@ p {
 #envoyer span {margin-right: 7%;}
 .help-block {display: none;}
 
-
+@media screen and (max-width:1190px) {
+  #achat .container .row div h3 {padding-top: 2%;}
+}
+@media screen and (max-width: 990px){
+  section {background-attachment: scroll;}
+  #achat .container .row div p {padding: 2%;}
+  #achat .container .row div {margin-bottom: 2%;}
+  #about .container .row:nth-child(2) div {
+    height: 50px;
+    padding: 1%;
+    border-radius: 5%;
+    margin-top: 2%;
+  }
+}
 @media screen and (max-width:700px) {
   #vente .slideshow {height: 400px;}
   #about .container .row:nth-child(2) div {
@@ -123,6 +147,7 @@ p {
     padding: 1%;
     border-radius: 5%;
   }
+  #achat .container .row div h3 {padding-top: 0%;}
 }
 @media screen and (max-width:500px) {
   #home h1 {font-size: 90px;}
@@ -149,4 +174,5 @@ p {
   #vente .slideshow {height: 200px;}
   #home h1 {font-size: 70px;}
   #home h2 {font-size: 40px;}
+  #achat .container .row div p {font-size: 12px;}
 }
