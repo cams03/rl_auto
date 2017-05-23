@@ -130,7 +130,7 @@ p {
   #achat .container .row div h3 {padding-top: 2%;}
 }
 @media screen and (max-width: 990px){
-  section {
+  #home, #about, #achat, #vente, #contact {
     background-attachment: scroll;
   }
   #achat .container .row div p {padding: 2%;}
