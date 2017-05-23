@@ -131,8 +131,7 @@ p {
 }
 @media screen and (max-width: 990px){
   section {
-    background-attachment: local;
-    background-size: auto;
+    background-attachment: scroll;
   }
   #achat .container .row div p {padding: 2%;}
   #achat .container .row div {margin-bottom: 2%;}
